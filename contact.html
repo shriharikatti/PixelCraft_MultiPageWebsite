@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - PixelCraft Creative Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="page.css" />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>PixelCraft</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <h1>Let's Create Together</h1>
+        <p>
+          Ready to transform your brand? We'd love to hear about your project
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Contact Information -->
+      <section class="contact-info">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-details">
+              <h2>Get In Touch</h2>
+              <p>
+                Whether you're a startup looking for your first brand identity
+                or an established business ready for a digital makeover, we're
+                here to help bring your vision to life.
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="method-icon">🏢</div>
+                  <div class="method-info">
+                    <h3>Our Studio</h3>
+                    <p>425 Jayanagar<br />Bengaluru</p>
+                  </div>
+                </div>
+                <div class="contact-method">
+                  <div class="method-icon">📱</div>
+                  <div class="method-info">
+                    <h3>Phone</h3>
+                    <p>+91 9000909090</p>
+                    <p>Monday - Friday, 9 AM - 6 PM IST</p>
+                  </div>
+                </div>
+                <div class="contact-method">
+                  <div class="method-icon">✉️</div>
+                  <div class="method-info">
+                    <h3>Email</h3>
+                    <p>hello@pixelcraft.design</p>
+                    <p>projects@pixelcraft.design</p>
+                  </div>
+                </div>
+                <div class="contact-method">
+                  <div class="method-icon">💬</div>
+                  <div class="method-info">
+                    <h3>Response Time</h3>
+                    <p>We typically respond within 4 hours</p>
+                    <p>Free consultation calls available</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+              <h2>Tell Us About Your Project</h2>
+              <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="firstName">First Name *</label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="company">Company/Organization</label>
+                  <input type="text" id="company" name="company" />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="projectType">Project Type</label>
+                    <select id="projectType" name="projectType">
+                      <option value="">Select Project Type</option>
+                      <option value="web-design">Website Design</option>
+                      <option value="branding">Branding & Logo</option>
+                      <option value="app-design">Mobile App Design</option>
+                      <option value="e-commerce">E-commerce Store</option>
+                      <option value="digital-marketing">
+                        Digital Marketing
+                      </option>
+                      <option value="other">Other/Multiple</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="budget">Budget Range</label>
+                    <select id="budget" name="budget">
+                      <option value="">Select Budget</option>
+                      <option value="5k-10k">$5,000 - $10,000</option>
+                      <option value="10k-25k">$10,000 - $25,000</option>
+                      <option value="25k-50k">$25,000 - $50,000</option>
+                      <option value="50k+">$50,000+</option>
+                      <option value="discuss">Let's Discuss</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Project Details *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                    placeholder="Tell us about your vision, goals, target audience, timeline, and any specific requirements or inspiration you have in mind..."
+                  ></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                  <input type="checkbox" id="portfolio" name="portfolio" />
+                  <label for="portfolio"
+                    >I'd like to see examples of similar work in your
+                    portfolio</label
+                  >
+                </div>
+
+                <button type="submit" class="btn-primary">
+                  Send Project Brief
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>PixelCraft</h3>
+            <p>Creating digital experiences that inspire and engage.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">App Development</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Get In Touch</h4>
+            <p>📧 hello@pixelcraft.design</p>
+            <p>📞 +91 9000909090</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 PixelCraft Creative Agency. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
